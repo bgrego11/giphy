@@ -22,7 +22,7 @@ var apiCall = function() {
 
 	console.log(term);
 	gifDiv.empty();
-	queryUrl = "http://api.giphy.com/v1/gifs/random?tag="+term+"&api_key=dc6zaTOxFJmzC";
+	queryUrl = "https://api.giphy.com/v1/gifs/random?tag="+term+"&api_key=dc6zaTOxFJmzC";
 	for (i=0;i<10;i++) {
 	$.ajax({
 		url: queryUrl,
